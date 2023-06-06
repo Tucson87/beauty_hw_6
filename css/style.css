@@ -27,3 +27,48 @@
     font-size: 14px;
     line-height: 16px;
 }
+
+.promo_block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.callback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo_text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+    text-transform: uppercase;
+}
+
+.callback>a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.callback>button {
+    background-color: #fff;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 12px 60px;
+    color: #000;
+}
